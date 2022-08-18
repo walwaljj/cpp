@@ -10,6 +10,10 @@ while(n>0) {
 cout << n << " ";
 n--;
 }
+cout << "fire!" << endl;
+for(int i = 10 ; i>0 ; i--){
+    cout << i << " ";
+}
 
 cout << "fire!" << endl;
 return 0; 

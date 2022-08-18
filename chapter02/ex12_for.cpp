@@ -15,7 +15,7 @@ int main(int argc, char const *argv[]){
     cout << "input num  : " << endl; 
     cin >> num;
     for(int i = 1 ; i <= num ; i++){
-        sum2+= sum2*i;
+        sum2= sum2*i;
     }cout  << num << "! = "<< sum2<< endl;
 
     return 0;
